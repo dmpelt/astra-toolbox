@@ -1,0 +1,4 @@
+conda:
+    file: python/docSRC/environment.yml
+python:
+    version: 2

@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'PyASTRAToolbox'
+project = u'ASTRA Toolbox'
 copyright = u'2013, Centrum Wiskunde & Informatica, Amsterdam'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -91,7 +91,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'default'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -183,8 +183,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', '.tex', u'.. Documentation',
-   u'Author', 'manual'),
+  ('index', 'astra_manual.tex', u'ASTRA Toolbox Documentation',
+   u'', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -284,4 +284,4 @@ epub_copyright = u'2013, Author'
 # Allow duplicate toc entries.
 #epub_tocdup = True
 
-intersphinx_mapping = {'python': ('http://docs.python.org/2.7', None), 'numpy':('http://docs.scipy.org/doc/numpy/',None)}
+intersphinx_mapping = {'python': ('http://docs.python.org/3', None), 'numpy':('http://docs.scipy.org/doc/numpy/',None)}
