@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'ASTRA Toolbox'
-copyright = u'2013, Centrum Wiskunde & Informatica, Amsterdam'
+copyright = u'2010-2015, iMinds-Vision Lab, University of Antwerp 2014-2015, CWI, Amsterdam'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -248,7 +248,7 @@ texinfo_documents = [
 epub_title = u'..'
 epub_author = u'Author'
 epub_publisher = u'Author'
-epub_copyright = u'2013, Author'
+epub_copyright = u'2010-2015, iMinds-Vision Lab, University of Antwerp 2014-2015, CWI, Amsterdam'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
